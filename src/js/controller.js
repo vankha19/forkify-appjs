@@ -101,6 +101,9 @@ const controlUpload = async function (newRecipe) {
     addRecipeView.renderError(err);
   }
 };
+const newFeature = function () {
+  console.log('New feature');
+};
 const init = function () {
   bookmarkView.addHandlerRender(controlLoadBookmark);
   recipeView.addHandleRender(controlRecipes);
